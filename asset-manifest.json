@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/movienote/static/css/main.86398bd5.chunk.css",
+    "main.js": "/movienote/static/js/main.af92a27a.chunk.js",
+    "main.js.map": "/movienote/static/js/main.af92a27a.chunk.js.map",
+    "runtime-main.js": "/movienote/static/js/runtime-main.0a6f74ec.js",
+    "runtime-main.js.map": "/movienote/static/js/runtime-main.0a6f74ec.js.map",
+    "static/js/2.f43bb734.chunk.js": "/movienote/static/js/2.f43bb734.chunk.js",
+    "static/js/2.f43bb734.chunk.js.map": "/movienote/static/js/2.f43bb734.chunk.js.map",
+    "index.html": "/movienote/index.html",
+    "precache-manifest.99dccf5491bad1d234855bbf6ea7f3aa.js": "/movienote/precache-manifest.99dccf5491bad1d234855bbf6ea7f3aa.js",
+    "service-worker.js": "/movienote/service-worker.js",
+    "static/css/main.86398bd5.chunk.css.map": "/movienote/static/css/main.86398bd5.chunk.css.map",
+    "static/js/2.f43bb734.chunk.js.LICENSE.txt": "/movienote/static/js/2.f43bb734.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a6f74ec.js",
+    "static/js/2.f43bb734.chunk.js",
+    "static/css/main.86398bd5.chunk.css",
+    "static/js/main.af92a27a.chunk.js"
+  ]
+}
