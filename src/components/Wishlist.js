@@ -1,10 +1,16 @@
 import React from "react";
 import { MovieList } from "./MovieList";
-export function Wishlist({ wishlist, setWishlist }) {
+
+export function Wishlist({ movies, wishlist, setWishlist }) {
+  const wishlistedMovies = movies.filter((movie) =>
+    wishlist.includes(movie.id)
+  );
+
+  function removeFromWishList(id) {
+    setWishlist(wishlist.filter((i) => i !== id));
+  }
+
   return (
-    <>
-      <h2>Wishlist</h2>
-      <pre>{JSON.stringify(wishlist, null, 1)}</pre>
-    </>
+    <MovieList movieList={wishlistedMovies} onItemClick={removeFromWishList} />
   );
 }
