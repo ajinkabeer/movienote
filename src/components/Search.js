@@ -1,7 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 
-export function Search() {
-  const [input, setInput] = useState("");
+export function Search({ searchValue, setSearchValue }) {
   const inputRef = useRef();
 
   useEffect(() => {
@@ -9,7 +8,7 @@ export function Search() {
   }, []);
 
   const handleChange = (event) => {
-    setInput(event.target.value);
+    setSearchValue(event.target.value);
   };
 
   return (
