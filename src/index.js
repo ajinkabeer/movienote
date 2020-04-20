@@ -1,11 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { movies } from "./data";
+import { MoviesProvider } from "./context/movies";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App movies={movies} />
+    <MoviesProvider>
+      <App />
+    </MoviesProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
