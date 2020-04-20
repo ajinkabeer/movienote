@@ -8,6 +8,22 @@
   font-family: "Manrope", sans-serif;
 }
 
+/* Search Component */
+
+input[type="text"] {
+  background-color: #fff;
+  font-size: 1.3rem;
+  font-family: inherit;
+  border: none;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  padding: 0rem 2rem;
+  width: calc(100% - 2rem);
+  height: 4rem;
+}
+
+/* Movie List Component */
+
 ul {
   padding: 0;
 }
