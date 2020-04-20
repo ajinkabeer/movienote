@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,6 +7,16 @@
 .main {
   padding: 0 2rem;
   font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+pre {
+  font-family: "Work Sans", sans-serif;
 }
 
 /* Search Component */

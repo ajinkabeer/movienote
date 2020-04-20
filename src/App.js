@@ -9,6 +9,7 @@ function App({ movies }) {
 
   return (
     <div className="main">
+      <h1>MovieNote</h1>
       <Search searchValue={searchValue} setSearchValue={setSearchValue} />
       <MoviePicker movies={movies} searchValue={searchValue} />
     </div>

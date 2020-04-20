@@ -17,7 +17,7 @@ export function Search({ searchValue, setSearchValue }) {
         ref={inputRef}
         type="text"
         placeholder="search for a movie"
-        value={input}
+        value={searchValue}
         onChange={handleChange}
       />
     </>
