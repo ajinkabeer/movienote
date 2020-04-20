@@ -11,7 +11,7 @@ function App({ movies }) {
     <div className="main">
       <h1>MovieNote</h1>
       <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-      <Wishlist wishlist={wishlist} setWishlist={setWishlist} />
+      <Wishlist movies={movies} wishlist={wishlist} setWishlist={setWishlist} />
       <MoviePicker
         movies={movies}
         searchValue={searchValue}

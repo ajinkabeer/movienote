@@ -1,5 +1,5 @@
 import React from "react";
-
+import { MovieList } from "./MovieList";
 export function Wishlist({ wishlist, setWishlist }) {
   return (
     <>
