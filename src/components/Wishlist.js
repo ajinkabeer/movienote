@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
-import { MovieContext } from "../context/movies";
+import React from "react";
+import { useMovies } from "../context/movies";
 import { MovieList } from "./MovieList";
 
 export function Wishlist({ wishlist, setWishlist }) {
-  const movies = useContext(MovieContext);
+  const movies = useMovies();
 
   const wishlistedMovies = movies.filter((movie) =>
     wishlist.includes(movie.id)

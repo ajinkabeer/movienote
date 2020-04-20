@@ -18,6 +18,7 @@ export function MovieContainer({
       <Search searchValue={searchValue} setSearchValue={setSearchValue} />
       <h2>wishlist</h2>
       <Wishlist wishlist={wishlist} setWishlist={setWishlist} />
+      <hr />
       <h2>movies</h2>
       <MoviePicker
         searchValue={searchValue}
