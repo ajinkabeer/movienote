@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "592cbf4b4968d02400b049bb75177312",
+    "revision": "a63f622af2754962865211e807be208a",
     "url": "/movienote/index.html"
   },
   {
-    "revision": "a592f9aeb850287c5476",
+    "revision": "5bf62da72532b86cfdbd",
     "url": "/movienote/static/css/main.86398bd5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/movienote/static/js/2.f43bb734.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a592f9aeb850287c5476",
-    "url": "/movienote/static/js/main.af92a27a.chunk.js"
+    "revision": "5bf62da72532b86cfdbd",
+    "url": "/movienote/static/js/main.06295190.chunk.js"
   },
   {
     "revision": "261f0630b045841d7f7a",
